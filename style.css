@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x:hidden ;
+}
+.btn:hover{
+color: rgb(246, 165, 4);
+
+}
+.btn1:hover{
+    color: rgb(246, 165, 4);
+    
+    }
+.nav-item .nav-link:hover{
+    color: orange;
+}
+.card-img-overlay{
+    text-align: center;
+    
+}
+.card-img-overlay.card-title{
+    font-size: 4rem;
+}
+.card-img-overlay .card-text{
+    font-size: 1.3rem;
+}
+.btn:hover{
+    border:.2rem solid rgb(36, 32, 32);
+    color: orange;
+}
+#feature span,#blogs span, #categories span,#review span,#products span,#Contact span {
+    background: orange;
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+ #feature .card:hover{
+    transform: translateY(10px);
+    transition: 0.5s ease;
+    margin-bottom: 2%;
+}
+ #feature .card {
+    margin-top: 2%;
+ }
+#products h1{
+    display: inline-block;
+}
+#products img{
+    width: 30%;
+  margin-left: 35%;
+}
+#products .card:hover{
+    border:.1rem solid rgb(36, 32, 32);
+}
+ .stars i{
+    font-size: 1.7rem;
+    color:orange;
+    padding:.5rem 0;
+}
+#categories .card:hover{
+    border:.1rem solid rgb(36, 32, 32);
+    transform: scale(1.1);
+}
+.icons{
+    margin-left: 20%;
+}
+
+
+
+@media (max-width:991px){
+    html{
+        font-size: 15px;
+    }
+  #Home .card-title{
+    font-size: 12px;
+  }
+  #Home .card-text{
+    font-size: 12px;
+  }  
+#products .btn{
+    font-size: 10px;
+}
+
+}
+
+
